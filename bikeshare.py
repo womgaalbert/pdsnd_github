@@ -213,7 +213,7 @@ def user_stats(df):
         res = df['Birth Year'].max() 
         co  = df['Birth Year'].mode()
         print('\n The earliest year of birth is: {} , \n the most recent year of birth is: {}\n and the most common year of birth: {} \n'.format(e,res,co) )
-        
+        # HISTOGRAM OF Birth Year
         Birth_Year = df['Birth Year']
         Birth_Year.hist()
         plt.title ('Histogram of the distribution of Birth Year ')

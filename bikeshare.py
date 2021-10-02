@@ -1,3 +1,4 @@
+# Update of my Bike Share project file
 import time
 import pandas as pd
 import calendar
@@ -98,7 +99,13 @@ def load_data(city, month, day):
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day]
     return df
-# VISUALIZATION OF RAW for Bike share
+
+
+
+
+
+# VISUALIZATION OF RAW 
+
 def display_data(df):
     view_data = input('\n Would you like to view 5 rows of individual trip data? Enter yes or no\n')
     start_loc = 0

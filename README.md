@@ -6,7 +6,23 @@ Date of creation of the project :30/09/2021
 Post of Bikeshare data on GitHub Project 
 ### Description
 Describe what your project is about and what it does
-
+This project wish to post the Bikeshare data on GitHub, therefor we are going to follow the steps below :
+*First 
+    -Create a GitHub profile 
+    -Fork a repository from Udacity’s GitHub Project repository
+    -Add the list of names associated with the data files you added to .gitignore for them not be appearing on the stage
+    -Then we push our commit to our remote repository after commiting these modifications
+*Next 
+    -Create a branch call documentation
+    -We do some changing on README file and bikeshare code and we stage the respective file follow by respective commit. 
+    This action have to be repeated 2 or 3 time. 
+    -Then we push our commit to our remote repository after commiting these modifications
+*Next
+    -Create a branch call refactoring
+    -Apply the same actions like while working in the previous branche 
+Finally 
+    -Merge the branches into the main branch
+    -Then we push our commit to our remote repository
 ### Files used
 Include the files used
 

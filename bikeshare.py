@@ -98,7 +98,7 @@ def load_data(city, month, day):
         # filter by day of week to create the new dataframe
         df = df[df['day_of_week'] == day]
     return df
-
+# VISUALIZATION OF RAW for Bike share
 def display_data(df):
     view_data = input('\n Would you like to view 5 rows of individual trip data? Enter yes or no\n')
     start_loc = 0
@@ -190,6 +190,7 @@ def user_stats(df):
     start_time = time.time()
 
     # TO DO: Display counts of user types
+    # Gender in number and graph
     try: 
         print( ' Here we the counts of Gender :\n', df['Gender'].value_counts())
          # TO DO : VISUALIZATION OF Gender
@@ -212,7 +213,7 @@ def user_stats(df):
         res = df['Birth Year'].max() 
         co  = df['Birth Year'].mode()
         print('\n The earliest year of birth is: {} , \n the most recent year of birth is: {}\n and the most common year of birth: {} \n'.format(e,res,co) )
-        # TO DO : VISUALIZATION OF Birth Year
+        
         Birth_Year = df['Birth Year']
         Birth_Year.hist()
         plt.title ('Histogram of the distribution of Birth Year ')
